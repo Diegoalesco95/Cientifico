@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.js?$/,
-        excñude: /node_modules/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
@@ -24,6 +24,7 @@ module.exports = {
   plugins: [
     new htmlWebpackPlugin([
       {
+        title: 'Cientifico',
         inject: true,
         template: './public/index.html',
         filename: './index.thml'

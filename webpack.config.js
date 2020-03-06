@@ -22,13 +22,11 @@ module.exports = {
     ]
   },
   plugins: [
-    new htmlWebpackPlugin([
-      {
-        title: 'Cientifico',
-        inject: true,
-        template: './public/index.html',
-        filename: './index.thml'
-      }
-    ])
+    new htmlWebpackPlugin({
+      title: 'Cientifico',
+      inject: true,
+      template: './public/index.html',
+      filename: './index.html'
+    })
   ]
 };

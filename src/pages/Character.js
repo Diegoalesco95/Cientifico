@@ -13,7 +13,7 @@ const Character = () => {
 				<h3>Origin:</h3>
 				<h3>Last Location:</h3>
 			</article>
-	</div>`;
+		</div>`;
   return view;
 };
 

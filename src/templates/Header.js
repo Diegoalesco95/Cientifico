@@ -12,7 +12,7 @@ const Header = () => {
 				<a href="#/about/">About</a>
 			</div>
 		</div>
-		`;
+	`;
   return view;
 };
 
